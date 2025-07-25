@@ -1,0 +1,2 @@
+Name: Jean | Grades: [90.3, 95.2, 98.4] | Average: 94.633333
+Name: Juan | Grades: [40.3, 50.4, 70.1] | Average: 53.600000
