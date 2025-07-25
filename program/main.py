@@ -2,6 +2,7 @@ from logic import save_grades, view_grades
 import time
 
 def main():
+    """main function"""
     print("Hi, follow the instructions and your grades are going to be saved in th efile data.txt\n")
     while True:
         print("what do you want to do? \n")

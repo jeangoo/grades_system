@@ -1,6 +1,7 @@
 import time
 
 def save_grades():
+    """function to save grades on a txt file"""
     grades = []
     name, lastname = input("Enter your name and lastname: \n").capitalize().split()
     while True:
@@ -22,6 +23,7 @@ def save_grades():
     is_approved(average)
 
 def is_approved(average):
+    """function to validate if student approve or not"""
     if average > 70:
         print("Congrats!, you are approve.")
     else:
@@ -29,6 +31,7 @@ def is_approved(average):
 
 
 def view_grades():
+    """function to see the grades on the txt file"""
     name = input("What grades do you want to see? \n").capitalize()
     try:
         with open("program/data.txt", "r", encoding="utf-8") as     file:
@@ -45,4 +48,5 @@ def view_grades():
                     print("Student not found.")
     except FileNotFoundError:
         print("The file does not exist.")
+
 
